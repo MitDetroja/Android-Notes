@@ -42,8 +42,3 @@ Android Core Topics
   10. **[DataBinding](https://docs.google.com/document/u/0/d/13BWEnu5r4ba_yA8hKCajVCs2SMLk2ZVfASuqwMXc07I/edit)**
   11. **WorkManager**
   12. **Room**
-
-
-**[LiveData with Coroutines and Flow — Part II: Launching coroutines with Architecture Components | by Jose Alcérreca | Android Developers | Medium](https://medium.com/androiddevelopers/livedata-with-coroutines-and-flow-part-ii-launching-coroutines-with-architecture-components-337909f37ae7)**
-
-**[A Simple News App With MVVM](https://androidexample365.com/a-simple-news-app-with-mvvm/)**
