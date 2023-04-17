@@ -123,10 +123,6 @@ Ref: **[Android Quicky: ViewModelProvider.Factory in Kotlin - DEV Community](htt
 
 ---
 
-**TODO:**
-
-ViewModelFactory
-
 **REF:**
 
 [MVVM with Kotlin Coroutines and Retrofit [Example] | by Velmurugan Murugesan | Howtodoandroid | Medium](https://medium.com/android-beginners/mvvm-with-kotlin-coroutines-and-retrofit-example-d3f5f3b09050)
