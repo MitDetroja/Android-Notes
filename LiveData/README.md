@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.567 seconds.
+Conversion time: 0.549 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β34
-* Fri Apr 14 2023 04:33:36 GMT-0700 (PDT)
+* Fri May 05 2023 02:05:25 GMT-0700 (PDT)
 * Source doc: LiveData
 ----->
 
@@ -160,11 +160,19 @@ Example:
 * Searching User from the List 
 * Have Category as CHIPS UI and show based result based on selected category
 
+**How to use observer LiveData with DataBinding?**
+
+As LiveData is LifeCycle Aware , It needs LifeCycle WOner to observe it. But when it is used with the databinding , You need to provide LifecycleOwner to the binding object.
+
+**How to extend LiveData class and what is its usage?**
+
+Create a class by extending the LiveData class, then override the onActive and onInactive methods to register and unregister your components. Then get an instance of that class and observe it.
+
+It can be used to get location updates, check network connectivity etc. 
+
 **TODO:**
 
 Where have you used liveData?
-
-Extend LiveData
 
 MediatorLiveData
 
