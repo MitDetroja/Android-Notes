@@ -5,9 +5,9 @@
 
 Android Core Topics
 
-  1. **Intent and Intent Filters**
+  1. **Activity**
   2. **Broadcasts**
-  3. **Activity**
+  3. **Intent and Intent Filters**
   4. **Fragments**
   5. **Services**
   6. **Permissions**
@@ -31,13 +31,11 @@ Android Core Topics
   2. **Firebase**
   3. **MapBox**
   4. **Google Map**
-  5. **Realm**
-  6. **JSON/XML parsing**
-  7. **Coroutines**
+  6. **Coroutines**
 
 **JetPack**
 
-  8. **LiveData**
-  9. **ViewModel**
-  10. **DataBinding**
-  11. **Room**
+  1. **LiveData**
+  2. **ViewModel**
+  3. **DataBinding**
+  4. **Room**
