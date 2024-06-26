@@ -1,10 +1,8 @@
-<!-- Output copied to clipboard! -->
-
 <!-----
 
-Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.912 seconds.
+
+Conversion time: 0.65 seconds.
 
 
 Using this Markdown file:
@@ -16,8 +14,8 @@ Using this Markdown file:
 
 Conversion notes:
 
-* Docs to Markdown version 1.0β34
-* Fri Apr 14 2023 04:34:36 GMT-0700 (PDT)
+* Docs to Markdown version 1.0β36
+* Wed Jun 26 2024 09:07:50 GMT-0700 (PDT)
 * Source doc: ViewModel
 ----->
 
@@ -96,8 +94,6 @@ When you use viewModel you should keep View As clean as possible, Avoid complex 
 
 Whenever onCreate Method is called for the first time it returns the new Instance of the ViewModel , Then When it is recreated after configuration changes It will return the pre-existing ViewModel associated to that View.
 
-We should not Give reference of view in ViewModel but it Keep tracks record of the associated views behind the scene
-
 **How to share ViewModel between Fragments in Android?**
 
 ViewModel is used to share data between fragments by sharing a single ViewModel between them. You have to use LiveData with ViewModel
@@ -120,8 +116,20 @@ To Use ViewModelProvider.Factory:
 
 Ref: **[Android Quicky: ViewModelProvider.Factory in Kotlin - DEV Community](https://dev.to/theplebdev/android-quicky-viewmodelproviderfactory-in-kotlin-191a)**
 
+**How ViewModel Survives Configuration Changes?**
+
+**[The Curious Case of Survival of Android ViewModel | by Abhilash Das | Geek Culture | Medium](https://medium.com/geekculture/the-curious-case-of-survival-of-viewmodel-afe074992fbc)**
+
+**What happens if you create an instance of a ViewModel class without ViewModelProvider?**
+
+ViewModelProvider helps in Managing the property of being LifeCycle Aware of its view and Also Helps in Survive the configuration changes. If it is done directly both of the above can not be done.
+
 
 ---
+
+**TODO:**
+
+ViewModelFactory
 
 **REF:**
 
